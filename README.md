@@ -6,7 +6,7 @@ Features:
 * Fetching now playing movies
 * Searching for movies
 * Displaying movie details with image + caching
-* Save movies as favourites locally
+* Mark locally movies as favourites
 
 ## Setup
 
