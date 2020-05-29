@@ -62,6 +62,7 @@ extension Configuration {
         ._3
     }
     
+    /// Complete API URL built with base API URL and API version.
     var apiURL: URL {
         baseAPIURL.appendingPathComponent(apiVersion.rawValue)
     }

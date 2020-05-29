@@ -50,11 +50,6 @@ final class MovieDetailsViewModel {
         movie.overview
     }
     
-    var favouriteImage: Observable<UIImage> {
-        favouriteImageSubject.asObservable()
-    }
-    
-    
     @objc func toggleMovieFavourite() {
         if favouritesRepository.isFavourite(movie: movie) {
             favouritesRepository.setNotFavourite(movie: movie)
@@ -63,6 +58,10 @@ final class MovieDetailsViewModel {
             favouritesRepository.setFavourite(movie: movie)
             favouriteImageSubject.onNext(filledStarIcon)
         }
+    }
+    
+    var favouriteImage: Observable<UIImage> {
+        favouriteImageSubject.asObservable()
     }
     
     func movieImage() -> Single<UIImage?> {

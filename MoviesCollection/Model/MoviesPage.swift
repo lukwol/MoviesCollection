@@ -6,13 +6,12 @@ import Foundation
 
 struct MoviesPage: Equatable, JSONDecodable {
     
-    let results: [Movie]
-    
     struct Dates: Equatable, JSONDecodable {
         let maximum: Date
         let minimum: Date
     }
     
+    let results: [Movie]
     let page: Int
     let totalResults: Int
     let dates: Dates?
