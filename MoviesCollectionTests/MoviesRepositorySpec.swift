@@ -5,6 +5,7 @@
 import Quick
 import Nimble
 import Foundation
+import SimpleAPIClient
 @testable import MoviesCollection
 
 final class MoviesRepositorySpec: QuickSpec {

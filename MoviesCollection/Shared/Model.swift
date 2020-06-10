@@ -3,6 +3,7 @@
 //
 
 import Foundation
+import SimpleAPIClient
 
 protocol Model: Equatable, JSONDecodable {}
 

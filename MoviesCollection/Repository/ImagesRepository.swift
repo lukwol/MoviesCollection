@@ -3,6 +3,7 @@
 //
 
 import UIKit
+import SimpleAPIClient
 
 /// Repository responsible for fetching and caching images.
 final class ImagesRepository {

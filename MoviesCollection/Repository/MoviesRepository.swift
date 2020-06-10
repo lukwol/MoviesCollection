@@ -3,6 +3,7 @@
 //
 
 import Foundation
+import SimpleAPIClient
 
 /// Manages fetching for now playing movies and provides search results.
 final class MoviesRepository {

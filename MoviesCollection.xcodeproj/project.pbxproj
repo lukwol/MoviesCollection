@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5C24F7CB247FACD900AB07BA /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24F7CA247FACD900AB07BA /* Configuration.swift */; };
-		5C24F7D7247FCCA700AB07BA /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24F7D6247FCCA700AB07BA /* HTTPMethod.swift */; };
 		5C24F7D9247FCE2200AB07BA /* MoviesRepositorySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24F7D8247FCE2200AB07BA /* MoviesRepositorySpec.swift */; };
 		5C24F7F3247FFB5900AB07BA /* MoviesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24F7F2247FFB5900AB07BA /* MoviesRepository.swift */; };
 		5C24F7F6247FFB7300AB07BA /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24F7F5247FFB7200AB07BA /* MoviesViewController.swift */; };
@@ -21,11 +20,11 @@
 		5C4508AF24803F2C003C5E0B /* FavouritesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4508AE24803F2C003C5E0B /* FavouritesRepository.swift */; };
 		5C4508B3248049F9003C5E0B /* ImagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4508B2248049F9003C5E0B /* ImagesRepository.swift */; };
 		5C4508B62480553A003C5E0B /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4508B52480553A003C5E0B /* MovieDetailsView.swift */; };
-		5C499CFD247F99580001C31D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C499CFC247F99580001C31D /* APIClient.swift */; };
 		5C499CFF247F9E970001C31D /* MoviesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C499CFE247F9E970001C31D /* MoviesPage.swift */; };
 		5C499D04247FA0F30001C31D /* movies_page.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C499D03247FA0F30001C31D /* movies_page.json */; };
 		5C499D06247FA1040001C31D /* MoviesPageSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C499D05247FA1040001C31D /* MoviesPageSpec.swift */; };
 		5C499D08247FA4EA0001C31D /* JSONDecodableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C499D07247FA4EA0001C31D /* JSONDecodableSpec.swift */; };
+		5C78386424912BEF00D00129 /* SimpleAPIClient in Frameworks */ = {isa = PBXBuildFile; productRef = 5C78386324912BEF00D00129 /* SimpleAPIClient */; };
 		5C871AFC24911CA90091E2FA /* DefaultJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C871AFB24911CA90091E2FA /* DefaultJSONDecoder.swift */; };
 		5C871AFE24911D560091E2FA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C871AFD24911D560091E2FA /* Model.swift */; };
 		5CCFC205247EE6C700AAB961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFC204247EE6C700AAB961 /* AppDelegate.swift */; };
@@ -36,7 +35,6 @@
 		5CCFC22E247EEC8500AAB961 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 5CCFC22D247EEC8500AAB961 /* Nimble */; };
 		5CCFC230247EECA800AAB961 /* MovieSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFC22F247EECA800AAB961 /* MovieSpec.swift */; };
 		5CDA5525247EEF16005D8C77 /* movie.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA5524247EEF15005D8C77 /* movie.json */; };
-		5CDA552A247EF145005D8C77 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA5529247EF145005D8C77 /* JSONDecodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +49,6 @@
 
 /* Begin PBXFileReference section */
 		5C24F7CA247FACD900AB07BA /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		5C24F7D6247FCCA700AB07BA /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		5C24F7D8247FCE2200AB07BA /* MoviesRepositorySpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRepositorySpec.swift; sourceTree = "<group>"; };
 		5C24F7F2247FFB5900AB07BA /* MoviesRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesRepository.swift; sourceTree = "<group>"; };
 		5C24F7F5247FFB7200AB07BA /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +58,6 @@
 		5C4508AE24803F2C003C5E0B /* FavouritesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesRepository.swift; sourceTree = "<group>"; };
 		5C4508B2248049F9003C5E0B /* ImagesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesRepository.swift; sourceTree = "<group>"; };
 		5C4508B52480553A003C5E0B /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
-		5C499CFC247F99580001C31D /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		5C499CFE247F9E970001C31D /* MoviesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPage.swift; sourceTree = "<group>"; };
 		5C499D03247FA0F30001C31D /* movies_page.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies_page.json; sourceTree = "<group>"; };
 		5C499D05247FA1040001C31D /* MoviesPageSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPageSpec.swift; sourceTree = "<group>"; };
@@ -78,7 +74,6 @@
 		5CCFC223247EEC0300AAB961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CCFC22F247EECA800AAB961 /* MovieSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSpec.swift; sourceTree = "<group>"; };
 		5CDA5524247EEF15005D8C77 /* movie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movie.json; sourceTree = "<group>"; };
-		5CDA5529247EF145005D8C77 /* JSONDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +83,7 @@
 			files = (
 				5C24F7FD247FFB9500AB07BA /* RxCocoa in Frameworks */,
 				5C24F7FB247FFB9500AB07BA /* RxRelay in Frameworks */,
+				5C78386424912BEF00D00129 /* SimpleAPIClient in Frameworks */,
 				5C24F7F9247FFB9500AB07BA /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,23 +144,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		5C499CFB247F99490001C31D /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				5C499CFC247F99580001C31D /* APIClient.swift */,
-				5C24F7D6247FCCA700AB07BA /* HTTPMethod.swift */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		5C499D09247FA7310001C31D /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				5CDA5529247EF145005D8C77 /* JSONDecodable.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
 		5C871AFA24911C840091E2FA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,9 +180,7 @@
 				5C4508B42480551B003C5E0B /* View */,
 				5C24F7FE247FFC0500AB07BA /* ViewModel */,
 				5C24F7F4247FFB7200AB07BA /* ViewControllers */,
-				5C499CFB247F99490001C31D /* Networking */,
 				5C24F7F1247FFB5900AB07BA /* Repository */,
-				5C499D09247FA7310001C31D /* Protocols */,
 				5CCFC204247EE6C700AAB961 /* AppDelegate.swift */,
 				5CCFC20D247EE6C800AAB961 /* Assets.xcassets */,
 				5CCFC20F247EE6C800AAB961 /* LaunchScreen.storyboard */,
@@ -263,6 +240,7 @@
 				5C24F7F8247FFB9500AB07BA /* RxSwift */,
 				5C24F7FA247FFB9500AB07BA /* RxRelay */,
 				5C24F7FC247FFB9500AB07BA /* RxCocoa */,
+				5C78386324912BEF00D00129 /* SimpleAPIClient */,
 			);
 			productName = MoviesCollection;
 			productReference = 5CCFC201247EE6C700AAB961 /* MoviesCollection.app */;
@@ -323,6 +301,7 @@
 				5CCFC229247EEC6A00AAB961 /* XCRemoteSwiftPackageReference "Quick" */,
 				5CCFC22C247EEC8500AAB961 /* XCRemoteSwiftPackageReference "Nimble" */,
 				5C24F7F7247FFB9500AB07BA /* XCRemoteSwiftPackageReference "RxSwift" */,
+				5C78386224912BEF00D00129 /* XCRemoteSwiftPackageReference "SimpleAPIClient" */,
 			);
 			productRefGroup = 5CCFC202247EE6C700AAB961 /* Products */;
 			projectDirPath = "";
@@ -363,17 +342,14 @@
 				5CCFC205247EE6C700AAB961 /* AppDelegate.swift in Sources */,
 				5C499CFF247F9E970001C31D /* MoviesPage.swift in Sources */,
 				5CCFC21A247EE8E400AAB961 /* Movie.swift in Sources */,
-				5C24F7D7247FCCA700AB07BA /* HTTPMethod.swift in Sources */,
 				5C4508AF24803F2C003C5E0B /* FavouritesRepository.swift in Sources */,
 				5C24F7F3247FFB5900AB07BA /* MoviesRepository.swift in Sources */,
 				5C24F80224800AC800AB07BA /* MovieDetailsViewController.swift in Sources */,
-				5C499CFD247F99580001C31D /* APIClient.swift in Sources */,
 				5C24F7CB247FACD900AB07BA /* Configuration.swift in Sources */,
 				5C4508B62480553A003C5E0B /* MovieDetailsView.swift in Sources */,
 				5C871AFE24911D560091E2FA /* Model.swift in Sources */,
 				5C871AFC24911CA90091E2FA /* DefaultJSONDecoder.swift in Sources */,
 				5C24F80424800B6F00AB07BA /* MovieDetailsViewModel.swift in Sources */,
-				5CDA552A247EF145005D8C77 /* JSONDecodable.swift in Sources */,
 				5C24F7F6247FFB7300AB07BA /* MoviesViewController.swift in Sources */,
 				5C24F800247FFC0500AB07BA /* MoviesViewModel.swift in Sources */,
 				5C4508B3248049F9003C5E0B /* ImagesRepository.swift in Sources */,
@@ -645,6 +621,14 @@
 				minimumVersion = 5.1.1;
 			};
 		};
+		5C78386224912BEF00D00129 /* XCRemoteSwiftPackageReference "SimpleAPIClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukwol/SimpleAPIClient";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
 		5CCFC229247EEC6A00AAB961 /* XCRemoteSwiftPackageReference "Quick" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Quick/Quick.git";
@@ -678,6 +662,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5C24F7F7247FFB9500AB07BA /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
+		};
+		5C78386324912BEF00D00129 /* SimpleAPIClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C78386224912BEF00D00129 /* XCRemoteSwiftPackageReference "SimpleAPIClient" */;
+			productName = SimpleAPIClient;
 		};
 		5CCFC22A247EEC6A00AAB961 /* Quick */ = {
 			isa = XCSwiftPackageProductDependency;
