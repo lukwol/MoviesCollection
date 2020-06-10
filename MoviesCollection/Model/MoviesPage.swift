@@ -4,9 +4,9 @@
 
 import Foundation
 
-struct MoviesPage: Equatable, JSONDecodable {
+struct MoviesPage: Model {
     
-    struct Dates: Equatable, JSONDecodable {
+    struct Dates: Model {
         let maximum: Date
         let minimum: Date
     }

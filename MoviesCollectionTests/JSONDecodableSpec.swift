@@ -33,6 +33,6 @@ final class JSONDecodableSpec: QuickSpec {
     }
 }
 
-private struct MockModel: Equatable, JSONDecodable {
+private struct MockModel: Model {
     let exampleDate: Date
 }

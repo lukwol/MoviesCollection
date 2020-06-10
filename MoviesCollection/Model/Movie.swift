@@ -4,7 +4,7 @@
 
 import Foundation
 
-struct Movie: Equatable, JSONDecodable {
+struct Movie: Model {    
     let popularity: Float
     let voteCount: Int
     let video: Bool
